@@ -1,13 +1,17 @@
+/* Styling */
 body {
   font-family: arial;
   background-color:#EFFFED;
   text-align: justify;
 }
-a:link    {color:blue; background-color:transparent; text-decoration:none}
-a:visited {color:pink; background-color:transparent; text-decoration:none}
-a:hover   {color:red; background-color:transparent; text-decoration:underline}
-a:active  {color:yellow; background-color:transparent; text-decoration:underline}
 
+/* URL style */
+a:link    {color:#1A0DAB; background-color:transparent; text-decoration:none}
+a:visited {color:#660099; background-color:transparent; text-decoration:none}
+a:hover   {background-color:transparent; text-decoration:underline}
+a:active  {color:#1A0DAB; background-color:transparent; text-decoration:underline}
+
+/* Extracted from W3 */
 .flex-container {
     display: -webkit-flex;
     display: flex;  
