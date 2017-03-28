@@ -11,36 +11,41 @@
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="../../assets/images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="../../assets/css/w3-edit.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
 <body>
 
-	<!-- Navbar (sit on top) -->
-	<div class="w3-top">
+	<div class="w3-top w3-mobile">
 		<div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
 			<a href="../../" class="w3-margin-left w3-bar-item w3-button"><b>A.</b>H.</a>
+			<div class="w3-right w3-hide-small w3-dropdown-hover">
+				<button class="w3-button">Prácticas<i class="material-icons w3-small">arrow_drop_down</i></button>
+				<div id="projects" class="w3-dropdown-content w3-bar-block w3-border">
+					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 1</a>
+					<a href="../ni/dos.html" class="w3-bar-item w3-button w3-animate-opacity">Práctica 2</a>
+					<a href="../san/tres.html" class="w3-bar-item w3-button w3-animate-opacity">Práctica 3</a>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="flex-container">
-		<header>
-			<h1><br>Pr&aacute;ctica 1</h1>
-		</header>
+	<div class="w3-container w3-green w3-center w3-mobile">
+		<h1><br>Pr&aacute;ctica 1</h1>
+		<h2>La letra &Ntilde;</h2>
+	</div>
 
-		<!-- Navbar (sit on side) -->
-		<nav class="nav">
-			<ul>
-				<li><strong>Consultas</strong></li>
-				<li><a href="https://es.wikipedia.org/wiki/%C3%91">Wikipedia</a>
-					<li>
+	<div class="w3-row">
+		<div class="w3-container w3-bar-block w3-cell w3-quarter w3-center w3-mobile">
+			<ul class="w3-ul">
+				<li><strong class="w3-bar-item">Consultas</strong></li>
+				<li><a href="https://es.wikipedia.org/wiki/%C3%91" class="w3-bar-item">Wikipedia</a></li>
 			</ul>
-		</nav>
+		</div>
 
-		<!-- Page content -->
-		<article class="article">
-			<h1>La letra &Ntilde;</h1>
+		<div class="w3-container w3-cell w3-threequarter w3-mobile">
 			<p>La <b>&Ntilde; o &ntilde;</b> es la decimoquinta
 				<ins>letra</ins> y la duod&eacute;cima
 				<ins>consonante</ins> del
@@ -53,15 +58,15 @@
 			mapuche, filipino, quechua, i&ntilde;upiaq, guaran&iacute;, otom&iacute;, mixteco, kiliwa, o'odham, papiamento, rohingya, tagalo,
 			t&aacute;rtaro de Crimea, tetun, w&oacute;lof y zapoteco,</i> y su sonido tambi&eacute;n aparece en la mayor&iacute;a
 				de lenguas
-				<i style="color:navy;">nilo-saharianas,
-			el zarma, las lenguas abor&iacute;genes australianas, euskera</i> y muchas otras lenguas en todos los continentes.</p>
+				<i style="color:navy;">nilo-saharianas, el zarma, las lenguas abor&iacute;genes australianas, euskera</i> y muchas otras
+				lenguas en todos los continentes.</p>
 
 			<center>
 				<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/E%C3%B1e_on_keyboard_-_blue.jpg" alt="&Ntilde; en teclado"
-					style="width:304px;height:228px;">
+				    style="width:304px;height:228px;">
 			</center>
 
-			<h2>Historia</h2>
+			<h3>Historia</h3>
 			<p>En los
 				<ins>monasterios</ins> y despu&eacute;s en las imprentas se ten&iacute;a la costumbre de economizar letras
 				<ins>abreviando</ins> para ahorrar esfuerzo en las tareas de copiado y colocaci&oacute;n de caracteres. As&iacute;, la secuencia
@@ -70,11 +75,11 @@
 				<ins>virgulilla</ins> ~ representaba a una n peque&ntilde;a y "achatada" cursivamente. Lo mismo sucedi&oacute; en portugu&eacute;s
 				con «an» y «&atilde;»; y el grupo romance nn > &ntilde; que se hab&iacute;a palatalizado a lo largo del tiempo en la
 				<ins>pen&iacute;nsula ib&eacute;rica</ins>.</p>
-		</article>
+		</div>
+	</div>
 
-		<footer>
-			<p>Andrés Herrera @ <a href="https://github.com/andreszx0">Github</a></p>
-		</footer>
+	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile">
+		<p>Andrés Herrera @ <a href="https://github.com/andreszx0">Github</a></p>
 	</div>
 
 </body>
