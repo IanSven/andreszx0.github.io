@@ -70,4 +70,5 @@ window.onload = function() {
     }
     renderFrame();
     audio.play();
+	audio.volume=0.2;
 };
