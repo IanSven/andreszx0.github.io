@@ -12,6 +12,23 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
 	<style type="text/css">
+		html {
+			font-family: arial, "Microsoft YaHei";
+			color: #FEFEFE;
+		}
+
+		#fileWrapper {
+			transition: all 0.5s ease;
+		}
+
+		#fileWrapper:hover {
+			opacity: 1!important;
+		}
+
+		#visualizer_wrapper {
+			text-align: center;
+		}
+
 		.bar-wrapper {
 			height: 300px;
 			position: relative;
@@ -37,29 +54,23 @@
 
 <body>
 
-	<audio id="audio" autoplay="autoplay" loop="loop" crossorigin="anonymous">
-		<source src="../assets/music/macintosh-plus.mp3" type="audio/mpeg" />no vaporwave 4 u
-	</audio>
-	<center>
-		<canvas id="canvas" width="800" height="350"></canvas><br/>
-		<a href="https://www.youtube.com/watch?v=cU8HrO7XuiE" class="w3-small"><i>MACINTOSH PLUS - リサフランク420 / 現代のコンピュー</i></a><br/>
-		<a href="../" class="w3-tiny"><i class="material-icons">home</i></a>
-	</center>
-	<script type="text/javascript" src="../assets/scripts/music.js">audio.volume=0.1;</script>
+	<div id="wrapper">
+		<div id="fileWrapper" class="file_wrapper">
+			<div id="info">
+				HTML5 Audio API showcase | An Audio Viusalizer
+			</div>
+			<label for="uploadedFile">Drag&drop or select a file to play:</label>
+			<input type="file" id="uploadedFile"></input>
+		</div>
+		<div id="visualizer_wrapper">
+			<canvas id='canvas' width="800" height="350"></canvas><br>
+			<a href="../" class="w3-tiny"><i class="material-icons">home</i></a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../assets/scripts/html5_audio_visualizer.js"></script>
 	<script type="text/javascript" src="../assets/scripts/rain.js"></script>
-	<script type="text/javascript">
-		var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-
-		var i = 1;
-
-		window.setInterval(function () {
-			document.body.style.backgroundColor = colors[i];
-			i++;
-			if (i === colors.length) {
-				i = 0;
-			}
-		}, 5000);
-	</script>
+	<script type="text/javascript" src="../assets/scripts/background_colors.js"></script>
 
 </body>
 
