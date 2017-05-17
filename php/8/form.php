@@ -39,7 +39,7 @@
 					<a href="https://andreszx0.github.io/practica/4/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 4</a>
 					<a href="https://andreszx0.github.io/practica/5/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 5</a>
 					<a href="https://andreszx0.github.io/practica/6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
-					<a href="http://andresh.000webhostapp.com/practica/7" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
+					<a href="https://andreszx0.github.io/practica/7" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
 					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 8</a>
 				</div>
 			</div>
