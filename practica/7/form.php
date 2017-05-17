@@ -3,13 +3,25 @@
 
 <head>
 
-	<title>Práctica 8</title>
+	<title>Práctica 7</title>
 	<meta name="author" content="Andrés Herrera" />
 	<meta name="description" content="Project Website" />
 	<meta name="keywords" content="CBTIS41" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="UTF-8" />
 	<link rel="shortcut icon" href="../../assets/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="../../assets/css/w3.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+	<style>
+		body {
+			background-image: url("http://wallpapercave.com/wp/rQKwvXA.png");
+			background-repeat: no-repeat;
+			background-position: top;
+			background-attachment: fixed;
+			background-size: 100%;
+		}
+	</style>
 
 </head>
 
@@ -34,17 +46,28 @@
 		</div>
 	</div>
 
-	<center>
-		<h1>Casa de cambio</h1>
-		<h2>Pesos a dolares</h2>
-	</center>
+	<div class="w3-container w3-green w3-center w3-mobile">
+		<h1><br/>Práctica 7</h1>
+		<h2>Área del rectángulo</h2>
+	</div>
 
-	<form action="form.php" method="GET">
-		Pesos a cambiar:
-		<input type="text" name="campo" /><br /> Tipo de cambio:
-		<input type="number" name="campo2" /><br />
-		<input type="submit" value="Enviar" />
-	</form>
+	<div class="w3-panel w3-center w3-padding-64 w3-mobile w3-text-white" style="text-shadow:1px 1px 0 #444; text-size=200%;">
+
+		<?php
+			$varBase=$_GET{'base'};
+			$varHeight=$_GET{'height'};
+			$varResult=$varBase*$varHeight;
+			
+			echo "$varBase * $varHeight = $varResult"
+		?>
+
+	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile w3-bottom">
+		<br/><a href="../../"><i class="material-icons">home</i></a>
+		<a href="index.html"><i class="material-icons">arrow_back</i></a>
+		<p>Andrés Herrera @ <a href="https://github.com/andreszx0">GitHub</a></p>
+	</div>
+
+	</div>
 
 </body>
 
