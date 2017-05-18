@@ -58,9 +58,9 @@
 			$varHeight=$_GET{'height'};
 			$varResult=$varBase*$varHeight;
 			
-			echo "Base = $varBase <br />";
-			echo "Altura = $varHeight <br />";
-			echo "Area = $varBase * $varHeight = $varResult";
+			echo "Base = $varBase u<br />";
+			echo "Altura = $varHeight u<br />";
+			echo "Área = $varBase * $varHeight = $varResult u<sup>2</sup>";
 		?>
 
 	</div>
