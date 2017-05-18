@@ -15,7 +15,7 @@
 
 	<style>
 		body {
-			background-image: url("http://wallpapersdsc.net/wp-content/uploads/2015/10/Dollar_15.jpg");
+			background-image: url("http://111wallpapers.com/wp-content/uploads/2016/11/sound-waves-on-graph-HD-wallpapers.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-attachment: fixed;
@@ -54,12 +54,13 @@
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile w3-text-white" style="text-shadow:1px 1px 0 #444; text-size=200%;">
 
 		<?php
-
 			$varMoney=$_GET{'money'};
 			$varType=$_GET{'type'};
+			$varResult=$varMoney*$varType;
 			
-			
-
+			echo "Pesos a cambiar: $ $varMoney MXN<br />";
+			echo "Tipo de cambio: $varType <br />";
+			echo "Cambio: $ $varResult USD";
 		?>
 
 	</div>
