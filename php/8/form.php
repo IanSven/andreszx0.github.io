@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Práctica 7</title>
+	<title>Práctica 8</title>
 	<meta name="author" content="Andrés Herrera" />
 	<meta name="description" content="Project Website" />
 	<meta name="keywords" content="CBTIS41" />
