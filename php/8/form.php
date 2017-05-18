@@ -56,7 +56,7 @@
 		<?php
 			$varMoney=$_GET{'money'};
 			$varType=$_GET{'type'};
-			$varResult=$varMoney*$varType;
+			$varResult=$varMoney/$varType;
 			
 			echo "Pesos a cambiar: $ $varMoney MXN<br />";
 			echo "Tipo de cambio: $varType <br />";
