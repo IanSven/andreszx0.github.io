@@ -60,7 +60,7 @@
 			
 			echo "Pesos a cambiar: $ $varMoney MXN<br />";
 			echo "Tipo de cambio: $varType <br />";
-			echo "Cambio: $ $varResult USD";
+			echo "Cambio: $ $varResult";
 		?>
 
 	</div>
