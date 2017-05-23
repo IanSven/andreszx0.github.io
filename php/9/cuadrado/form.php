@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Práctica 8</title>
+	<title>Práctica 9</title>
 	<meta name="author" content="Andrés Herrera" />
 	<meta name="description" content="Project Website" />
 	<meta name="keywords" content="CBTIS41" />
@@ -16,7 +16,7 @@
 
 	<style>
 		body {
-			background-image: url("http://111wallpapers.com/wp-content/uploads/2016/11/sound-waves-on-graph-HD-wallpapers.jpg");
+			background-image: url("https://cdn.suwalls.com/wallpapers/vector/transparent-shapes-15792-1920x1080.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-attachment: fixed;
@@ -41,25 +41,25 @@
 					<a href="../5/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 5</a>
 					<a href="../6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
 					<a href="../7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
-					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 8</a>
+					<a href="../8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
+					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 9</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="w3-container w3-green w3-center w3-mobile">
-		<h1><br/>Práctica 8</h1>
-		<h2>Casa de cambio</h2>
+		<h1><br/>Práctica 9</h1>
+		<h2>Área del cuadrado</h2>
 	</div>
 
-	<div class="w3-panel w3-center w3-padding-64 w3-mobile">
-		<form action="http://andresh.000webhostapp.com/8/form.php" method="GET">
-			<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Cantidad de pesos:</i>
-			<input type="number" name="money" step="0.01" required autofocus /><br /><br />
-			<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Tipo de cambio:</i>
-			<input type="number" name="type" step="0.01" required /><br /><br />
-			<input type="submit" value="Calcular" />
-		</form>
+	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
+		<?php
+			$side=$_GET('side');
+			$result=$side*$side;
+
+			echo "($side)^2 = $result"
+		?>
 	</div>
 
 	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile w3-bottom">

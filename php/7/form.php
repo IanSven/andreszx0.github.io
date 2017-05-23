@@ -54,13 +54,13 @@
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile w3-text-white" style="text-shadow:1px 1px 0 #444; text-size=200%;">
 
 		<?php
-			$varBase=$_GET{'base'};
-			$varHeight=$_GET{'height'};
-			$varResult=$varBase*$varHeight;
+			$base=$_GET{'base'};
+			$height=$_GET{'height'};
+			$result=$base*$height;
 			
-			echo "Base = $varBase unidades<br />";
-			echo "Altura = $varHeight unidades<br /><br />";
-			echo "Área = $varBase * $varHeight = $varResult u<sup>2</sup>";
+			echo "Base = $base unidades<br />";
+			echo "Altura = $height unidades<br /><br />";
+			echo "Área = $base * $height = $result u<sup>2</sup>";
 		?>
 
 	</div>

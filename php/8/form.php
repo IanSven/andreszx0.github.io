@@ -39,7 +39,7 @@
 					<a href="https://andreszx0.github.io/practica/4/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 4</a>
 					<a href="https://andreszx0.github.io/practica/5/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 5</a>
 					<a href="https://andreszx0.github.io/practica/6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
-					<a href="https://andreszx0.github.io/practica/7" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
+					<a href="https://andreszx0.github.io/practica/7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
 					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 8</a>
 				</div>
 			</div>
@@ -54,13 +54,13 @@
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile w3-text-white" style="text-shadow:1px 1px 0 #444; text-size=200%;">
 
 		<?php
-			$varMoney=$_GET{'money'};
-			$varType=$_GET{'type'};
-			$varResult=number_format(($varMoney/$varType), 2, '.', '');
+			$money=$_GET{'money'};
+			$type=$_GET{'type'};
+			$result=number_format(($money/$type), 2, '.', '');
 			
-			echo "Pesos a cambiar: $ $varMoney MXN<br />";
-			echo "Tipo de cambio: $varType <br />";
-			echo "Cambio: $ $varResult";
+			echo "Pesos a cambiar: $ $money MXN<br />";
+			echo "Tipo de cambio: $type <br />";
+			echo "Cambio: $ $result";
 		?>
 
 	</div>
