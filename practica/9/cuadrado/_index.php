@@ -59,13 +59,16 @@
 			$side=$_GET['side'];
 			$result=$side*$side;
 
+			echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
 			echo "Lado = $side<br /><br />";
 			echo "($side)<sup>2</sup> = $result";
+			echo '</i>';
 		?>
 	</div>
 
 	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile w3-bottom">
-		<br/><a href="../../"><i class="material-icons">home</i></a>
+		<br/><a href="https://andreszx0.github.io/"><i class="material-icons">home</i></a>
+		<a href="https://andreszx0.github.io/practica/9/"><i class="material-icons">arrow_back</i></a>
 		<p>Andrés Herrera @ <a href="https://github.com/andreszx0">GitHub</a></p>
 	</div>
 
