@@ -9,9 +9,9 @@
 	<meta name="keywords" content="CBTIS41" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="UTF-8" />
-	<link rel="shortcut icon" href="../../assets/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css" />
-	<link rel="stylesheet" type="text/css" href="../../assets/css/w3.css" />
+	<link rel="shortcut icon" href="https://andreszx0.github.io/assets/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="https://andreszx0.github.io/assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="https://andreszx0.github.io/assets/css/w3.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
 	<style>
