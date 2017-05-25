@@ -9,14 +9,13 @@
 	<meta name="keywords" content="CBTIS41" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="UTF-8" />
-	<link rel="shortcut icon" href="../../assets/images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css" />
-	<link rel="stylesheet" type="text/css" href="../../assets/css/w3.css" />
+	<link rel="shortcut icon" href="https://andreszx0.github.io/assets/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="https://andreszx0.github.io/assets/css/w3.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
 	<style>
 		body {
-			background-image: url("https://cdn.suwalls.com/wallpapers/vector/transparent-shapes-15792-1920x1080.jpg");
+			background-image: url("http://cdn.desktopwallpaper4.me/wallpapers/abstract/2560x1440/1/302-rainbow-dotted-pattern-2560x1440-abstract-wallpaper.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-attachment: fixed;
