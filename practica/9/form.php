@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Práctica 7</title>
+	<title>Práctica 9</title>
 	<meta name="author" content="Andrés Herrera" />
 	<meta name="description" content="Project Website" />
 	<meta name="keywords" content="CBTIS41" />
@@ -16,7 +16,7 @@
 
 	<style>
 		body {
-			background-image: url("http://wallpapercave.com/wp/rQKwvXA.png");
+			background-image: url("https://cdn.suwalls.com/wallpapers/vector/transparent-shapes-15792-1920x1080.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-attachment: fixed;
@@ -40,33 +40,37 @@
 					<a href="../4/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 4</a>
 					<a href="../5/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 5</a>
 					<a href="../6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
-					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 7</a>
+					<a href="../7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
 					<a href="../8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
-					<a href="../9/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 9</a>
-					<a href="../10/" class="w3-bar-item w3-button w3-animate-opacity w3-small">Práctica 10</a>
+					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 9</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="w3-container w3-green w3-center w3-mobile">
-		<h1><br/>Práctica 7</h1>
-		<h2>Área del rectángulo</h2>
+		<h1><br/>Práctica 9</h1>
+		<h2>Área de figuras</h2>
 	</div>
 
-	<div class="w3-panel w3-center w3-padding-64 w3-mobile">
-		<form action="http://andreszx0.site11.com/7/form.php" method="GET">
-			<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
-			<input type="number" name="base" step="any" required autofocus /><br />
-			<p class="w3-text-white w3-panel" style="text-shadow:1px 1px 0 #444">X</p>
-			<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
-			<input type="number" name="height" step="any" required /><br /><br />
-			<input type="submit" value="Calcular" />
-		</form>
+	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
+		<?php
+			$radio=$_GET('shape');
+			if ($radio=="circulo") {
+
+			} elseif ($radio=="cuadrado") {
+
+			} elseif ($radio=="rectangulo") {
+
+			} elseif ($radio=="triangulo") {
+
+			}
+		?>
 	</div>
 
 	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile w3-bottom">
-		<br/><a href="../../"><i class="material-icons">home</i></a>
+		<br/><a href="https://andreszx0.github.io/"><i class="material-icons">home</i></a>
+		<a href="https://andreszx0.github.io/practica/7/"><i class="material-icons">arrow_back</i></a>
 		<p>Andrés Herrera @ <a href="https://github.com/andreszx0">GitHub</a></p>
 	</div>
 

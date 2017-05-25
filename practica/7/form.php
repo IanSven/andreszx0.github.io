@@ -41,6 +41,8 @@
 					<a href="https://andreszx0.github.io/practica/6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
 					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 7</a>
 					<a href="https://andreszx0.github.io/practica/8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
+					<a href="https://andreszx0.github.io/practica/9/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 9</a>
+					<a href="https://andreszx0.github.io/practica/10/" class="w3-bar-item w3-button w3-animate-opacity w3-small">Práctica 10</a>
 				</div>
 			</div>
 		</div>
@@ -54,8 +56,8 @@
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile w3-text-white" style="text-shadow:1px 1px 0 #444; text-size=200%;">
 
 		<?php
-			$base=$_GET{'base'};
-			$height=$_GET{'height'};
+			$base=$_GET['base'];
+			$height=$_GET['height'];
 			$result=$base*$height;
 			
 			echo "Base = $base unidades<br />";

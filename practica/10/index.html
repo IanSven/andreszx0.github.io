@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Práctica 9</title>
+	<title>Práctica 10</title>
 	<meta name="author" content="Andrés Herrera" />
 	<meta name="description" content="Project Website" />
 	<meta name="keywords" content="CBTIS41" />
@@ -16,7 +16,7 @@
 
 	<style>
 		body {
-			background-image: url("https://cdn.suwalls.com/wallpapers/vector/transparent-shapes-15792-1920x1080.jpg");
+			background-image: url("http://cdn.desktopwallpaper4.me/wallpapers/abstract/2560x1440/1/302-rainbow-dotted-pattern-2560x1440-abstract-wallpaper.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-attachment: fixed;
@@ -42,26 +42,26 @@
 					<a href="../6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
 					<a href="../7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
 					<a href="../8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
-					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 9</a>
+					<a href="../9/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 9</a>
+					<a href="#" class="w3-bar-item w3-button w3-disabled w3-small">Práctica 10</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="w3-container w3-green w3-center w3-mobile">
-		<h1><br/>Práctica 9</h1>
-		<h2>Área del circulo</h2>
+		<h1><br/>Práctica 10</h1>
+		<h2>Checkbox</h2>
 	</div>
 
-	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
-		<?php
-			$radius=$_GET('radius');
-			$result=M_PI*($radius*$radius);
-
-			$pi=M_PI;
-
-			echo "$pi * ($radius)^2 = $result"
-		?>
+	<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+		<form action="http://andreszx0.site11.com/10/form.php" method="POST">
+			<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Seleccione:<br /><br />
+			<input type="checkbox" name="color[]" value="Rojo" /> Rojo<br />
+			<input type="checkbox" name="color[]" value="Verde" /> Verde<br />
+			<input type="checkbox" name="color[]" value="Azul" /> Azul</i><br /><br />
+			<input type="submit" value="OK" />
+		</form>
 	</div>
 
 	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile w3-bottom">

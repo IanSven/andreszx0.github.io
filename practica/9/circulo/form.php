@@ -50,12 +50,15 @@
 
 	<div class="w3-container w3-green w3-center w3-mobile">
 		<h1><br/>Práctica 9</h1>
-		<h2>Área de figuras</h2>
+		<h2>Área del circulo</h2>
 	</div>
 
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 		<?php
-			$radio=$_GET('shape');
+			$radius=$_GET('radius');
+			$result=M_PI*($radius*$radius);
+
+			echo " * ($radius)^2 = $result"
 		?>
 	</div>
 
