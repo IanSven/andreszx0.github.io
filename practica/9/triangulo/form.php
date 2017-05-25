@@ -55,11 +55,13 @@
 
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 		<?php
-			$base=$_GET('base');
-			$height=$GET('height');
+			$base=$_GET['base'];
+			$height=$_GET['height'];
 			$result=($base*$height)/2;
-
-			echo "($base * $height) / 2 = $result"
+			
+			echo "Base = $base<br />";
+			echo "Altura = $height<br /><br />";
+			echo "Área = ($base * $height) / 2 = $result";
 		?>
 	</div>
 

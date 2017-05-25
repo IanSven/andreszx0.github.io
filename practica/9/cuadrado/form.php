@@ -55,10 +55,11 @@
 
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 		<?php
-			$side=$_GET('side');
+			$side=$_GET['side'];
 			$result=$side*$side;
 
-			echo "($side)^2 = $result"
+			echo "Lado = $side<br /><br />";
+			echo "($side)<sup>2</sup> = $result";
 		?>
 	</div>
 

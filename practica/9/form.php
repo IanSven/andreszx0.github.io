@@ -55,15 +55,47 @@
 
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 		<?php
-			$radio=$_GET('shape');
+			$radio=$_GET['shape'];
 			if ($radio=="circulo") {
-
+				echo "Área del circulo";
+				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+						<form action="http://andreszx0.site11.com/9/circulo/form.php" method="GET">
+							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Radio:
+							<input type="number" name="radius" step="any" required autofocus /> ^2</i><br />
+							<input type="submit" value="Calcular" />
+							</form>
+					</div>';
 			} elseif ($radio=="cuadrado") {
-
+				echo "Área del cuadrado";
+				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+						<form action="http://andreszx0.site11.com/9/cuadrado/form.php" method="GET">
+							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Lado:</i>
+							<input type="number" name="side" step="any" required autofocus /><br />
+							<input type="submit" value="Calcular" />
+							</form>
+					</div>';
 			} elseif ($radio=="rectangulo") {
-
+				echo "Área del rectángulo";
+				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+						<form action="http://andreszx0.site11.com/9/rectangulo/form.php" method="GET">
+							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
+							<input type="number" name="base" step="any" required autofocus /><br />
+							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
+							<input type="number" name="height" step="any" required /><br /><br />
+							<input type="submit" value="Calcular" />
+							</form>
+					</div>';
 			} elseif ($radio=="triangulo") {
-
+				echo "Área del triángulo rectángulo";
+				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+						<form action="http://andreszx0.site11.com/9/triangulo/form.php" method="GET">
+							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
+							<input type="number" name="base" step="any" required autofocus /><br />
+							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
+							<input type="number" name="height" step="any" required /><br /><br />
+							<input type="submit" value="Calcular" />
+							</form>
+					</div>';
 			}
 		?>
 	</div>

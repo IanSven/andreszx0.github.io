@@ -55,10 +55,11 @@
 
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 		<?php
-			$radius=$_GET('radius');
+			$radius=$_GET['radius'];
 			$result=M_PI*($radius*$radius);
-
-			echo " * ($radius)^2 = $result"
+			
+			echo "Radio = $radius<br /><br />";
+			echo "&#960; * ($radius)<sup>2</sup> = $result";
 		?>
 	</div>
 
