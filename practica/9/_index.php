@@ -30,19 +30,20 @@
 
 	<div class="w3-top w3-mobile">
 		<div class="w3-bar w3-white w3-wide w3-padding-8 w3-card-2">
-			<a href="../../" class="w3-margin-left w3-bar-item w3-button"><b>A.</b>H.</a>
+			<a href="https://andreszx0.github.io/" class="w3-margin-left w3-bar-item w3-button"><b>A.</b>H.</a>
 			<div class="w3-right w3-hide-small w3-dropdown-hover">
 				<button class="w3-button">Prácticas<i class="material-icons w3-small">arrow_drop_down</i></button>
 				<div id="projects" class="w3-dropdown-content w3-bar-block w3-border">
-					<a href="../1/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 1</a>
-					<a href="../2/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 2</a>
-					<a href="../3/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 3</a>
-					<a href="../4/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 4</a>
-					<a href="../5/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 5</a>
-					<a href="../6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
-					<a href="../7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
-					<a href="../8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
+					<a href="https://andreszx0.github.io/practica/1/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 1</a>
+					<a href="https://andreszx0.github.io/practica/2/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 2</a>
+					<a href="https://andreszx0.github.io/practica/3/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 3</a>
+					<a href="https://andreszx0.github.io/practica/4/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 4</a>
+					<a href="https://andreszx0.github.io/practica/5/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 5</a>
+					<a href="https://andreszx0.github.io/practica/6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
+					<a href="https://andreszx0.github.io/practica/7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
+					<a href="https://andreszx0.github.io/practica/8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
 					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 9</a>
+					<a href="https://andreszx0.github.io/practica/10/" class="w3-bar-item w3-button w3-animate-opacity w3-small">Práctica 10</a>
 				</div>
 			</div>
 		</div>
