@@ -61,8 +61,8 @@
 			$result=$base*$height;
 			
 			echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
-			echo "Base = $base";
-			echo "Altura = $height";
+			echo "Base = $base<br />";
+			echo "Altura = $height<br /><br />";
 			echo "Área = $base * $height = $result";
 			echo '</i>';
 		?>

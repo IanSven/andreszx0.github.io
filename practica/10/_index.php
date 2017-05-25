@@ -61,7 +61,11 @@
 		} else {
 		$color=$_POST['color'];
 		$N=count($color);
-		echo("Seleccionó $N color(es):<br />");
+		if ($N == 1) {
+			echo("Seleccionó $N color:<br />");
+		} else {
+		echo("Seleccionó $N colores:<br />");
+		}
 		for($i=0; $i < $N; $i++) {
 		echo($color[$i] . "<br />");
 			}
