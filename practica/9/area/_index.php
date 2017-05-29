@@ -61,7 +61,7 @@
 						<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 						<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
 				echo "Radio = $radius<br /><br />";
-				echo "&#960; * ($radius)<sup>2</sup> = $result";
+				echo "Área = &#960; * ($radius)<sup>2</sup> = $result";
 				echo '</i>';
 			} elseif ($_SESSION['fig']=="square") {
 				$side=$_GET['side'];
@@ -71,7 +71,7 @@
 						<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 						<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
 				echo "Lado = $side<br /><br />";
-				echo "($side)<sup>2</sup> = $result";
+				echo "Área = ($side)<sup>2</sup> = $result";
 				echo '</i>';
 			} elseif ($_SESSION['fig']=="rectangle") {
 				$base=$_GET['base'];
