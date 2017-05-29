@@ -64,8 +64,8 @@
 					echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del circulo</i>';
 					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
 							<form action="http://andreszx0.site11.com/9/area/" method="GET">
-								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Radio:
-								<input type="number" name="radius" step="any" required autofocus /></i><br /><br />
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Radio:</i>
+								<input type="number" name="radius" step="any" required autofocus /><br /><br />
 								<input type="submit" value="Calcular" />
 								</form>
 						</div>';
