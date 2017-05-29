@@ -56,47 +56,51 @@
 
 	<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
 		<?php
+			if (isset ($_GET['shape'])) {
 			$radio=$_GET['shape'];
-			if ($radio=="circle") {
-				echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del circulo</i>';
-				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
-						<form action="http://andreszx0.site11.com/9/circulo/" method="GET">
-							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Radio:
-							<input type="number" name="radius" step="any" required autofocus /> ^2</i><br />
-							<input type="submit" value="Calcular" />
-							</form>
-					</div>';
-			} elseif ($radio=="square") {
-				echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del cuadrado</i>';
-				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
-						<form action="http://andreszx0.site11.com/9/cuadrado/" method="GET">
-							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Lado:</i>
-							<input type="number" name="side" step="any" required autofocus /><br />
-							<input type="submit" value="Calcular" />
-							</form>
-					</div>';
-			} elseif ($radio=="rectangle") {
-				echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del rectángulo</i>';
-				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
-						<form action="http://andreszx0.site11.com/9/rectangulo/" method="GET">
-							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
-							<input type="number" name="base" step="any" required autofocus /><br />
-							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
-							<input type="number" name="height" step="any" required /><br /><br />
-							<input type="submit" value="Calcular" />
-							</form>
-					</div>';
-			} elseif ($radio=="triangle") {
-				echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del triángulo rectángulo</i>';
-				echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
-						<form action="http://andreszx0.site11.com/9/triangulo/" method="GET">
-							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
-							<input type="number" name="base" step="any" required autofocus /><br />
-							<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
-							<input type="number" name="height" step="any" required /><br /><br />
-							<input type="submit" value="Calcular" />
-							</form>
-					</div>';
+				if ($radio=="circle") {
+					echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del circulo</i>';
+					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+							<form action="http://andreszx0.site11.com/9/area/" method="GET">
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Radio:
+								<input type="number" name="radius" step="any" required autofocus /> ^2</i><br />
+								<input type="submit" value="Calcular" />
+								</form>
+						</div>';
+				} elseif ($radio=="square") {
+					echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del cuadrado</i>';
+					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+							<form action="http://andreszx0.site11.com/9/area/" method="GET">
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Lado:</i>
+								<input type="number" name="side" step="any" required autofocus /><br />
+								<input type="submit" value="Calcular" />
+								</form>
+						</div>';
+				} elseif ($radio=="rectangle") {
+					echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del rectángulo</i>';
+					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+							<form action="http://andreszx0.site11.com/9/area/" method="GET">
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
+								<input type="number" name="base" step="any" required autofocus /><br />
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
+								<input type="number" name="height" step="any" required /><br /><br />
+								<input type="submit" value="Calcular" />
+								</form>
+						</div>';
+				} elseif ($radio=="triangle") {
+					echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Área del triángulo rectángulo</i>';
+					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
+							<form action="http://andreszx0.site11.com/9/area/" method="GET">
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
+								<input type="number" name="base" step="any" required autofocus /><br />
+								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
+								<input type="number" name="height" step="any" required /><br /><br />
+								<input type="submit" value="Calcular" />
+								</form>
+						</div>';
+				}
+			} else {
+				echo "No seleccionó ninguna opción.";
 			}
 		?>
 	</div>

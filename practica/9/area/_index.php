@@ -3,7 +3,7 @@
 
 <head>
 
-	<title>Práctica 10</title>
+	<title>Práctica 9</title>
 	<meta name="author" content="Andrés Herrera" />
 	<meta name="description" content="Project Website" />
 	<meta name="keywords" content="CBTIS41" />
@@ -16,7 +16,7 @@
 
 	<style>
 		body {
-			background-image: url("http://wallpoper.com/images/00/22/03/57/artistic-colors_00220357.jpg");
+			background-image: url("https://cdn.suwalls.com/wallpapers/vector/transparent-shapes-15792-1920x1080.jpg");
 			background-repeat: no-repeat;
 			background-position: top;
 			background-attachment: fixed;
@@ -42,39 +42,68 @@
 					<a href="https://andreszx0.github.io/practica/6/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 6</a>
 					<a href="https://andreszx0.github.io/practica/7/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 7</a>
 					<a href="https://andreszx0.github.io/practica/8/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 8</a>
-					<a href="https://andreszx0.github.io/practica/9/" class="w3-bar-item w3-button w3-animate-opacity">Práctica 9</a>
-					<a href="#" class="w3-bar-item w3-button w3-disabled w3-small">Práctica 10</a>
+					<a href="#" class="w3-bar-item w3-button w3-disabled">Práctica 9</a>
+					<a href="https://andreszx0.github.io/practica/10/" class="w3-bar-item w3-button w3-animate-opacity w3-small">Práctica 10</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="w3-container w3-green w3-center w3-mobile">
-		<h1><br/>Práctica 10</h1>
-		<h2>Área de figuras</h2>
-	</div>
-
-	<div class="w3-panel w3-center w3-padding-64 w3-mobile w3-text-white" style="text-shadow:1px 1px 0 #444">
+		<h1><br/>Práctica 9</h1>
 		<?php
-		if (empty($_POST['color'])) {
-		echo("No seleccionó ninguna opción.");
-		} else {
-		$color=$_POST['color'];
-		$N=count($color);
-		if ($N == 1) {
-			echo("Seleccionó $N color:<br />");
-		} else {
-		echo("Seleccionó $N colores:<br />");
-		}
-		for($i=0; $i < $N; $i++) {
-		echo($color[$i] . "<br />");
+			include 'http://andreszx0.site11.com/9/index.php';
+			if ($shape=="circle") {
+				$radius=$_GET['radius'];
+				$result=M_PI*($radius*$radius);
+
+				echo '<h2>Área del círculo</h2></div>
+						<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
+						<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
+				echo "Radio = $radius<br /><br />";
+				echo "&#960; * ($radius)<sup>2</sup> = $result";
+				echo '</i>';
+			} elseif ($shape=="square") {
+				$side=$_GET['side'];
+				$result=$side*$side;
+
+				echo '<h2>Área del cuadrado</h2></div>
+						<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
+						<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
+				echo "Lado = $side<br /><br />";
+				echo "($side)<sup>2</sup> = $result";
+				echo '</i>';
+			} elseif ($shape=="rectangle") {
+				$base=$_GET['base'];
+				$height=$_GET['height'];
+				$result=$base*$height;
+				
+				echo '<h2>Área del rectángulo</h2></div>
+						<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
+						<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
+				echo "Base = $base<br />";
+				echo "Altura = $height<br /><br />";
+				echo "Área = $base * $height = $result";
+				echo '</i>';
+			} elseif ($shape=="triangle") {
+				$base=$_GET['base'];
+				$height=$_GET['height'];
+				$result=($base*$height)/2;
+				
+				echo '<h2>Área del triángulo rectángulo</h2></div>
+						<div class="w3-panel w3-center w3-padding-64 w3-mobile" style="text-shadow:1px 1px 0 #444">
+						<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">';
+				echo "Base = $base<br />";
+				echo "Altura = $height<br /><br />";
+				echo "Área = ($base * $height) / 2 = $result";
+				echo '</i>';
 			}
-		} ?>
+		?>
 	</div>
 
 	<div class="w3-container w3-green w3-padding-8 w3-center w3-mobile w3-bottom">
 		<br/><a href="https://andreszx0.github.io/"><i class="material-icons">home</i></a>
-		<a href="https://andreszx0.github.io/practica/10/"><i class="material-icons">arrow_back</i></a>
+		<a href="https://andreszx0.github.io/practica/9/"><i class="material-icons">arrow_back</i></a>
 		<p>Andrés Herrera @ <a href="https://github.com/andreszx0">GitHub</a></p>
 	</div>
 
