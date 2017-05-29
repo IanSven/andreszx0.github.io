@@ -63,7 +63,7 @@
 					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
 							<form action="http://andreszx0.site11.com/9/area/" method="GET">
 								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Radio:
-								<input type="number" name="radius" step="any" required autofocus /> ^2</i><br />
+								<input type="number" name="radius" step="any" required autofocus /><sup> 2</sup></i><br /><br />
 								<input type="submit" value="Calcular" />
 								</form>
 						</div>';
@@ -72,7 +72,7 @@
 					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
 							<form action="http://andreszx0.site11.com/9/area/" method="GET">
 								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Lado:</i>
-								<input type="number" name="side" step="any" required autofocus /><br />
+								<input type="number" name="side" step="any" required autofocus /><br /><br />
 								<input type="submit" value="Calcular" />
 								</form>
 						</div>';
@@ -81,7 +81,7 @@
 					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
 							<form action="http://andreszx0.site11.com/9/area/" method="GET">
 								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
-								<input type="number" name="base" step="any" required autofocus /><br />
+								<input type="number" name="base" step="any" required autofocus /><br /><br />
 								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
 								<input type="number" name="height" step="any" required /><br /><br />
 								<input type="submit" value="Calcular" />
@@ -92,7 +92,7 @@
 					echo '<div class="w3-panel w3-center w3-padding-64 w3-mobile">
 							<form action="http://andreszx0.site11.com/9/area/" method="GET">
 								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Base:</i>
-								<input type="number" name="base" step="any" required autofocus /><br />
+								<input type="number" name="base" step="any" required autofocus /><br /><br />
 								<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">Altura:</i>
 								<input type="number" name="height" step="any" required /><br /><br />
 								<input type="submit" value="Calcular" />
@@ -100,7 +100,7 @@
 						</div>';
 				}
 			} else {
-				echo "No seleccionó ninguna opción.";
+				echo '<i class="w3-text-white" style="text-shadow:1px 1px 0 #444">No seleccionó ninguna opción.</i>';
 			}
 		?>
 	</div>

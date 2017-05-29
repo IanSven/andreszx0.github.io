@@ -52,7 +52,7 @@
 	<div class="w3-container w3-green w3-center w3-mobile">
 		<h1><br/>Práctica 9</h1>
 		<?php
-			include 'http://andreszx0.site11.com/9/index.php';
+			include '../index.php';
 			if ($shape=="circle") {
 				$radius=$_GET['radius'];
 				$result=M_PI*($radius*$radius);
