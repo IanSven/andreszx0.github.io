@@ -52,8 +52,8 @@
 	<div class="w3-container w3-green w3-center w3-mobile">
 		<h1><br/>Práctica 9</h1>
 		<?php
-			include '../index.php';
-			if ($shape=="circle") {
+		session_start();
+			if ($_SESSION['fig']=="circle") {
 				$radius=$_GET['radius'];
 				$result=M_PI*($radius*$radius);
 
@@ -63,7 +63,7 @@
 				echo "Radio = $radius<br /><br />";
 				echo "&#960; * ($radius)<sup>2</sup> = $result";
 				echo '</i>';
-			} elseif ($shape=="square") {
+			} elseif ($_SESSION['fig']=="square") {
 				$side=$_GET['side'];
 				$result=$side*$side;
 
@@ -73,7 +73,7 @@
 				echo "Lado = $side<br /><br />";
 				echo "($side)<sup>2</sup> = $result";
 				echo '</i>';
-			} elseif ($shape=="rectangle") {
+			} elseif ($_SESSION['fig']=="rectangle") {
 				$base=$_GET['base'];
 				$height=$_GET['height'];
 				$result=$base*$height;
@@ -85,7 +85,7 @@
 				echo "Altura = $height<br /><br />";
 				echo "Área = $base * $height = $result";
 				echo '</i>';
-			} elseif ($shape=="triangle") {
+			} elseif ($_SESSION['fig']=="triangle") {
 				$base=$_GET['base'];
 				$height=$_GET['height'];
 				$result=($base*$height)/2;
